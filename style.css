@@ -181,19 +181,12 @@ nav a:hover {
 		float: none;
 		width: 100%;
 	}
-	aside {
-		float: right;
-		width: 30%;
-	}
 	.profile_elem {
 		width: 33.33333333%;
 	}
 	.profile_elem {
 		float: left;
 		display: block;
-	}
-	.rightfloat {
-		float: right;
 	}
 }
 
