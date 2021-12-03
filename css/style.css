@@ -1,0 +1,177 @@
+h1#welcome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px gray;
+        }
+
+h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #0D8A75; 
+  font-weight: bold;
+}
+
+h3 {
+    text-shadow: 2px 2px gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0D8A75; 
+    font-weight: bold;
+}
+
+b {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0D8A75; 
+    font-weight: bold;
+}
+
+button {
+        background-color: #12C4A6;
+        border: none;
+        padding: 14px 28px;
+        font-size: 20px;
+        color: white; 
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.upcomingEvent {
+  box-shadow: 5px 5px gray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button.upcomingEvent {
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+div.testimonialsRow {
+  margin-bottom: 5%;
+}
+
+img#missionImg {
+  width: 40%;
+  float: right;
+  border-radius: 30px;
+}
+
+p.aboutUsP {
+  width: 70%;
+  font-size: 150%;
+}
+
+
+img#goalsImg {
+  width: 40%; 
+  float: left; 
+  margin-right: 2%;
+  border-radius: 30px;
+}
+
+img#objectivesImg {
+  width: 40%;
+  float: right;
+  border-radius: 30px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 3;
+    }
+    .card-testimonial {
+      width: 100%;
+      height: 100%;
+    }
+}
+
+
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-testimonial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+}
+
+.card-mentor-of-week {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-mentor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #8AF0DF;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.testimonial-image {
+  max-width: 200vw;
+  height: 40vh;
+  object-fit: contain;
+}
+
+.card-title {
+  min-height: 1em;
+  text-align: center;
+}
+
+.event-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body-text {
+  text-align: center;
+}
+
+.header-centered {
+  text-align: center;
+}
+
+div.join {
+  padding-left: 5%;
+}
+
+div.featurette {
+  padding-bottom: 2%;
+}
+
+p.card-test{
+  text-align:center;
+}

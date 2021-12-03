@@ -1,68 +1,131 @@
 <!DOCTYPE html>
-         <html>
-            <head>
-               <meta charset="utf-8">
-               <title>Studio 99</title>
-               <meta name="description" content="Studio 99 is a dance studio located in Pittsburgh, PA.">
-               <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-               <!---Webfonts-->
-               <link rel="preconnect" href="https://fonts.googleapis.com">
-               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-               <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-
-               <link rel="stylesheet" href="style.css">
-            </head>
-            <body id="home">
-               <header class="scale-container">
-                  <div id="banner">
-                     <div id="logo">
-                        <h1 id="logo-text">STUDIO 99</h1>
-                     </div>
-                  </div>
-                  <nav id="topnav" role="navigation">
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">Tutorials</a></li>
-                     <li><a href="#">About</a></li>
-                     <li><a href="#">Contact</a></li>
-                  </nav>
-               </header>
-               <section id="image-display" class="clearfix">    
-                  <img id="main-image" src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_klook_water/activities/ekmfziehszvifjci9tko/SeoulK-PopDanceClassforBeginnersbyFanxyStudio.webp">
-               </section>
-               <div id="main" class="scale-container">
-                  <section id="content" class="wide-content">
-                     <h1>Who we are</h1>
-                     <p>Studio 99 is a dance studio located in Pittsburgh, PA. Founded in 2021, we teach a variety of street dance styles including hip hop, popping, locking, breaking, and house.</p>
-                     <p>Our instructors are highly skilled international dancers who have achieved mastery in multiple styles of dance.</p>
-                  </section>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>replit</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+      <link href="css/style.css" rel="stylesheet" />
+      <script type = "text/javascript" src="js/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
+   </head>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
+      <a class="navbar-brand" href="index.html">
+      <img src="imgs/loglow.png" height="75px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto" style="font-weight:bold">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="mentors.html">Meet the Mentors</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="join.html">Join the Program</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="contactUs.html">Contact Us</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <body>
+     <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="d-block w-100" src="imgs/carousel.jpg" alt="Women in IS">
+               <div class="carousel-caption d-none d-md-block">
+                  <h1 id="welcome">Welcome to Women in IS</h1>
+                  <h3>A mentoring program for undergraduate <br> women in Information Systems.</h3>
+                  <button type="button" onclick="window.location.href='aboutUs.html';">Learn More</button>
                </div>
-               <section id="instructors"  class="instructors vertical-padding">
-                  <div class="scale-container">
-                     <h1>Our instructors</h1>
-                     <div class="row vertical-padding">
-                        <div class="profile_elem">
-                           <h3>MT Pop</h3>
-                           <img src="https://i0.wp.com/fp.atom-13.com/wp-content/uploads/2017/12/mt-pop-dont-stop-jay-dee-feat-fr.jpg?fit=1024%2C576" />
-                           <p>MT POP (X-Clown, Playboyz Inc) is a world-class Vietnamese popper who has taken the street dance community by storm. He has won top prizes at international dance contests such as Jack of all Trades Festival Canada and Juste Debout Bangkok. He teaches classes in popping and tutting.</p>
-                        </div>
-                        <div class="profile_elem">
-                           <h3>Bouboo</h3>
-                           <img src="http://image.uc.cn/s/wemedia/s/upload/2020/baf93ca49d27bf966ac71774f90e2b2e.jpg" />
-                           <p>BOUBOO (Criminalz Crew, Enfants Prodiges) is a French Hip Hop and Street Style dancer. He is currently one of the most successful Hip Hop battlers in the world and has been judging, battling and teaching for over 18 years. Bouboo teaches classes in hop hop and locking.</p>
-                        </div>
-                        <div class="profile_elem">
-                           <h3>Kazane</h3>
-                           <img src="https://d1kmz4c7qci3r5.cloudfront.net/wp-content/uploads/2018/02/KANTO_KAZANE-ho.jpg" />
-                           <p>KAZANE (Lucifer) is a Japanese house dancer. She has won numerous competitions, including Dance Alive Heroes 2019 and Summer Dance Forever (House). Kazane teaches classes on house.</p>
-                        </div>
-                     </div>
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="imgs/carousel2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="imgs/carousel3.png" alt="Third slide">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         </a>
+      </div>
+      <br>
+      <!--Upcoming Event Card-->
+      <div class="m-5">
+         <h1 class="header-centered">Upcoming Event</h1>
+         <div class="upcomingEvent card mb-3">
+            <div class="row no-gutters">
+               <div class="mw-25 col-md-8">
+                  <img src="imgs/event.png" class="event-card-img" alt="...">
+               </div>
+               <div class="col-md-4">
+                  <div class="card-body">
+                     <h4 class="card-title">11/15: Museum Bonding Event</h4>
+                     <p class="card-text">Head down with us to the Carnegie Museum of Natural History for a fun night of meeting with mentors and bonding!</p>
+                     <p class="card-text"> <b>When: </b> 7-8PM - Monday, November 15</p>
+                     <p class="card-text"><b>Where: </b> 123 Forbes Avenue, Pittsburgh, PA University Center Auditorium</p>
+                     <button type="button" class="upcomingEvent">Register</button>
                   </div>
-               </section>
-               <footer>
-                  <div class="scale-container">
-                     Contact: studio99@business.com
-                  </div>
-               </footer>
-            </body>
-         </html>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br>
+      <!-- Testimonials -->
+      <div class="testimonialsRow m-5">
+         <h1 class="header-centered">Testimonials</h1>
+         <div class="card-columns">
+            <div class="card-testimonial">
+               <img class="testimonial-image" src="imgs/mentorMaddie.png">
+               <h2 class="card-title">Maddie - Mentor</h2>
+               <p class="card-body-text">“I felt like I had made a positive impact on their career paths and academic journey and it's super nice to be able to meet younger IS women.”</p>
+            </div>
+            <div class="card-testimonial">
+               <img class="testimonial-image" src="imgs/menteeJennifer.png">
+               <h2 class="card-title">Jennifer - Mentee</h2>
+               <p class="card-body-text">“As a mentee of the program, I can say that Women in IS completely changed my freshman college experience.”</p>
+            </div>
+            <div class="card-testimonial">
+               <img class="testimonial-image"
+                  src="imgs/mentorMichelle.png">
+               <h2 class="card-title">Michelle - Mentor</h2>
+               <p class="card-body-text">“As a mentee of the program, I can say that Women in IS completely changed my freshman college experience.”</p>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer class="bg-primary text-center text-white text-lg-start">
+         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © Women in IS | Contact Us: <br>
+            Advisor Correy Dandoy - (412) 268-4781 - 
+            <a class="text-white" href="mailto:correy@cmu.edu"> correy@cmu.edu</a><br>
+            Advisor Brandy Wilson - (412) 268-3066 - 
+            <a class="text-white" href="mailto:brandyw@cmu.edu"> brandyw@cmu.edu</a>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
+</html>
